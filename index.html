@@ -464,8 +464,8 @@
         </div>
         <div class="subscribe-container">
           <p class="footer-subscribe">Subscribe</p>
-          <form action="" class="footer-form">
-            <label class="footer-label" for=""
+          <form class="footer-form">
+            <label class="footer-label"
               ><input
                 class="footer-input"
                 type="email"
@@ -484,5 +484,41 @@
         </div>
       </div>
     </footer>
+    <div class="modal-container">
+      <div class="modal-window">
+        <p class="modal-text">Lave your contacts and we will youback</p>
+        <form class="form" name="issue_report_form" autocomplete="off">
+          <label class="modal-label">
+            Name
+            <input
+              class="modal-input"
+              type="text"
+              name="name"
+              placeholder="name"
+              autofocus
+            />
+          </label>
+
+          <label class="modal-label">
+            Phone
+            <input
+              class="modal-input"
+              type="text"
+              name="phone"
+              placeholder="phone"
+            />
+          </label>
+          <label class="modal-label"
+            ><input
+              class="modal-input"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+          /></label>
+
+          <button class="modal-button" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
