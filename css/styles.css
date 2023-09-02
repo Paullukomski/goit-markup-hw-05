@@ -613,7 +613,7 @@ ol {
   width: 75px;
   height: 24px;
   display: block;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 .footer-form {
   position: relative;
@@ -634,14 +634,15 @@ ol {
   border-radius: 4px;
   border-radius: 4px;
   border: 1px solid var(--white, #fff);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  background-position: center;
+  padding-left: 16px;
+  line-height: 1.5;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 .footrer-button {
   color: var(--color-white);
   text-align: center;
   /* Button Text */
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -658,9 +659,13 @@ ol {
   height: 40px;
   padding-left: 24px;
   padding-top: 16px;
+  min-width: 165px;
+  cursor: pointer;
+  border: none;
 }
 .footer-subscribe-icon {
   fill: #f4f4fd;
   position: absolute;
   background-repeat: no-repeat;
+  margin-left: 16px;
 }
