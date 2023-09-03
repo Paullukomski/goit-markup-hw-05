@@ -486,45 +486,61 @@
     </footer>
     <div class="modal-container">
       <div class="modal-window">
+        <button class="modal-button-close" type="button">
+          <svg>
+            <use
+              href="./images/icons/modal/close-black.svg#icon-close-black"
+            ></use>
+          </svg>
+        </button>
         <p class="modal-text">Lave your contacts and we will youback</p>
         <form class="form" name="issue_report_form" autocomplete="off">
-          <label class="modal-label">
-            Name
-            <input
-              class="modal-input"
-              type="text"
-              name="name"
-              placeholder="name"
-              autofocus
-            />
-          </label>
-
-          <label class="modal-label">
-            Phone
-            <input
-              class="modal-input"
-              type="text"
-              name="phone"
-              placeholder="phone"
-            />
-          </label>
-          <label class="modal-label"
-            ><input
-              class="modal-input"
-              type="email"
-              name="email"
-              placeholder="E-mail"
-          /></label>
-          Cooment
-          <label>
-            <textarea
-              name="Cooment"
-              rows="5"
-              placeholder="Text input"
-            ></textarea>
-          </label>
-
-          <button class="modal-button" type="submit">Send</button>
+          <div>
+            <label class="modal-label">
+              Name
+              <input
+                class="modal-input"
+                type="text"
+                name="name"
+                placeholder="name"
+                autofocus
+              />
+            </label>
+          </div>
+          <div>
+            <label class="modal-label">
+              Phone
+              <input
+                class="modal-input"
+                type="text"
+                name="phone"
+                placeholder="phone"
+              />
+            </label>
+          </div>
+          <div>
+            <label class="modal-label"
+              ><input
+                class="modal-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+            /></label>
+          </div>
+          <div>
+            <label
+              >Cooment
+              <textarea
+                name="Cooment"
+                rows="5"
+                placeholder="Text input"
+              ></textarea>
+            </label>
+          </div>
+          <div>
+            <input type="text" /><label for=""><span></span></label>
+            <button></button>
+          </div>
         </form>
       </div>
     </div>
