@@ -496,8 +496,8 @@
         <p class="modal-text">Lave your contacts and we will youback</p>
         <form class="form" name="issue_report_form" autocomplete="off">
           <div>
-            <label class="modal-label">
-              Name
+            <label class="modal-label"> Name</label>
+            <div>
               <input
                 class="modal-input"
                 type="text"
@@ -505,40 +505,58 @@
                 placeholder="name"
                 autofocus
               />
-            </label>
+              <svg width="18px" height="24px">
+                <use href="./images/icons/modal/person.svg#icon-person"></use>
+              </svg>
+            </div>
           </div>
           <div>
-            <label class="modal-label">
-              Phone
+            <label class="modal-label"> Phone</label>
+            <div>
               <input
                 class="modal-input"
                 type="text"
                 name="phone"
                 placeholder="phone"
-              />
-            </label>
+              /><svg width="18px" height="24px">
+                <use href="./images/icons/modal/person.svg#icon-phone"></use>
+              </svg>
+            </div>
           </div>
           <div>
-            <label class="modal-label"
-              ><input
+            <label class="modal-label">Email</label>
+            <div>
+              <input
                 class="modal-input"
                 type="email"
                 name="email"
                 placeholder="E-mail"
-            /></label>
+              /><svg width="18px" height="24px">
+                <use href="./images/icons/modal/person.svg#icon-email"></use>
+              </svg>
+            </div>
           </div>
           <div>
-            <label
-              >Cooment
-              <textarea
-                name="Cooment"
-                rows="5"
-                placeholder="Text input"
-              ></textarea>
-            </label>
+            <label>Coomment</label>
+            <textarea
+              id="user-comment"
+              name="user-coomment"
+              rows="5"
+              placeholder="Text input"
+            ></textarea>
+            <div>
+              <input
+                id="user-privacy"
+                type="checkbox"
+                value="true"
+                name="user-privacy"
+              />
+            </div>
           </div>
           <div>
-            <input type="text" /><label for=""><span></span></label>
+            <input type="text" /><label for="user-privacy"
+              >I accept the terms and conditions of the<span></span
+            ></label>
             <button></button>
           </div>
         </form>
