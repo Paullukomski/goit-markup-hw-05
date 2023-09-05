@@ -486,8 +486,13 @@
     </footer>
     <div class="modal-container">
       <div class="modal-window">
-        <button class="modal-button-close" type="button">
-          <svg>
+        <button
+          class="modal-button-close"
+          type="button"
+          width="24px"
+          height="24px"
+        >
+          <svg width="8" height="8" class="modal-icon-close">
             <use
               href="./images/icons/modal/close-black.svg#icon-close-black"
             ></use>
@@ -495,8 +500,10 @@
         </button>
         <p class="modal-text">Lave your contacts and we will youback</p>
         <form class="form" name="issue_report_form" autocomplete="off">
-          <div>
-            <label class="modal-label"> Name</label>
+          <div class="modal-name">
+            <label class="modal-label" id="user-name" for="user-name">
+              Name</label
+            >
             <div>
               <input
                 class="modal-input"
@@ -505,7 +512,7 @@
                 placeholder="name"
                 autofocus
               />
-              <svg width="18px" height="24px">
+              <svg class="modal-icon" width="18px" height="24px">
                 <use href="./images/icons/modal/person.svg#icon-person"></use>
               </svg>
             </div>
@@ -518,7 +525,7 @@
                 type="text"
                 name="phone"
                 placeholder="phone"
-              /><svg width="18px" height="24px">
+              /><svg class="modal-icon" width="18px" height="24px">
                 <use href="./images/icons/modal/person.svg#icon-phone"></use>
               </svg>
             </div>
@@ -537,8 +544,9 @@
             </div>
           </div>
           <div>
-            <label>Coomment</label>
+            <label class="modal-label" for="user-comment">Coomment</label>
             <textarea
+              class="modal-textarea"
               id="user-comment"
               name="user-coomment"
               rows="5"
@@ -546,17 +554,21 @@
             ></textarea>
             <div>
               <input
+                class="modal-input-checkbox"
                 id="user-privacy"
                 type="checkbox"
                 value="true"
                 name="user-privacy"
               />
+              <label class="modal-label-text" for="user-privacy"
+                >I accept the terms and conditions of the<span
+                  class="modal-label-span"
+                ></span
+              ></label>
             </div>
           </div>
           <div>
-            <input type="text" /><label for="user-privacy"
-              >I accept the terms and conditions of the<span></span
-            ></label>
+            <input type="text" />
             <button></button>
           </div>
         </form>
