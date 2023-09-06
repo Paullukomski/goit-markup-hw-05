@@ -728,20 +728,18 @@ ol {
 }
 .modal-button-close:focus {
   background-color: #404bbf;
-}
-.modal-button-close:hover {
   border: none;
+  fill: #ffffff;
 }
+
 .modal-button-close:hover {
   background-color: #404bbf;
+  fill: #ffffff;
 }
 .modal-icon-close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-icon-close:hover,
-.modal-icon-close:focus {
-  fill: #ffffff;
-}
+
 .modal-name {
   margin-bottom: 8px;
 }
