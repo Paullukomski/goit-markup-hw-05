@@ -728,12 +728,13 @@ ol {
 }
 .modal-button-close:focus {
   background-color: #404bbf;
-  border: none;
+
   fill: #ffffff;
 }
 
 .modal-button-close:hover {
   background-color: #404bbf;
+  border: none;
   fill: #ffffff;
 }
 .modal-icon-close {
@@ -816,9 +817,15 @@ ol {
   align-items: center;
   align-items: center;
   fill: transparent;
+  justify-content: center;
 }
 .modal-link {
   color: #4d5ae5;
+}
+.input-checked:checked > .modal-label-span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 .modal-button-send {
   display: block;
