@@ -728,7 +728,7 @@ ol {
 }
 .modal-button-close:focus {
   background-color: #404bbf;
-
+  border: none;
   fill: #ffffff;
 }
 
@@ -822,7 +822,7 @@ ol {
 .modal-link {
   color: #4d5ae5;
 }
-.input-checked:checked > .modal-label-span {
+.input-checked:checked + .modal-label-text > .modal-label-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
