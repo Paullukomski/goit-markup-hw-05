@@ -760,6 +760,7 @@ ol {
 }
 .modal-user-checkbox {
   margin-bottom: 24px;
+  align-items: center;
 }
 .modal-input {
   width: 100%;
